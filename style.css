@@ -151,11 +151,11 @@ h2 {
     flex-wrap: wrap;
 }
 #black{
-    color: blACK;
-    background: #1e5ce3;
+    color: white;
+    background: #000000;
     max-width: 100%;
-    border: 1.43px solid darkgrey;
-    border-radius: 10px;
+    border: 1.43px solid white;
+    border-radius: 5px;
 }
 
 .center-aligner{
