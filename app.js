@@ -118,7 +118,7 @@ var craft4Name = document.getElementById("craft4Name").innerHTML;
 
 
 document.getElementById("purchase").onclick = () => {
-  var link = "https://api.whatsapp.com/send?phone=919751711604&text=" + 'Kidz World Online Store Order' + '%0A%0A';                      
+  var link = "https://wa.me/+919000000000?text=" + 'Kidz World Online Store Order' + '%0A%0A';                      
                                                        if(costOfBook1*book1Number > 0){link += book1Name + '%20×%20' + book1Number + '%20=%20' + costOfBook1*book1Number + '%0A'}
                                                        if(costOfBook2*book2Number > 0){link += book2Name + '%20×%20' + book2Number + '%20=%20' + costOfBook2*book2Number + '%0A'}
                                                        if(costOfBook3*book3Number > 0){link += book3Name + '%20×%20' + book3Number + '%20=%20' + costOfBook3*book3Number + '%0A'}
@@ -143,7 +143,7 @@ document.getElementById("purchase").onclick = () => {
 
 if (cartNumber.innerHTML > 0) {
       
-      location.replace(link);
+      window.open(link, "_blank");
     } else {
       alert('Before purchasing you must add something to cart');
       }
