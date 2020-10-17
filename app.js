@@ -143,7 +143,7 @@ document.getElementById("purchase").onclick = () => {
 
 if (cartNumber.innerHTML > 0) {
       
-      window.open(link, "_blank");
+      location.replace(link);
     } else {
       alert('Before purchasing you must add something to cart');
       }
